@@ -67,8 +67,12 @@ a:focus {
 
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
+    font-size: 18px;
+    color: $white;
+}
+
+.navbar-toggle {
+	color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -101,7 +105,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
+    background-color: $gray;
 }
 
 .navbar-custom .nav li.active a:hover {
@@ -137,7 +141,8 @@ a:focus {
 
 /* sec 1 */
 .about-section {
-	padding: 100px 0 50px 0;
+	padding-top: 100px;
+	padding-bottom: 50px;
     color: $gray;
     background-color: $white;
     background-size: cover;
@@ -154,7 +159,8 @@ a:focus {
 }
 /* sec 3 */
 .contact-section {
-    padding: 100px 0 50px 0;
+    padding-top: 100px;
+	padding-bottom: 50px;
 }
 
 /* footer */
@@ -198,18 +204,21 @@ footer p {
 .twitter {
 	&:hover {
 		background-color: $twitter;
+		border: 1px solid darken($twitter, 20%);
 	}
 }
 
 .facebook {
 	&:hover {
 		background-color: $facebook;
+		border: 1px solid darken($facebook, 20%);
 	}
 }
 
 .gplus {
 	&:hover {
 		background-color: $gplus;
+		border: 1px solid darken($gplus, 20%);
 	}
 }
 
@@ -242,7 +251,7 @@ ul.banner-social-buttons {
 .btn-circle:focus {
     outline: 0;
     color: $white;
-    background: rgba(255,255,255,.1);
+    background: $blue;
 }
 
 .btn-circle i.animated {
@@ -264,8 +273,8 @@ ul.banner-social-buttons {
     }
 
     50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
     }
 
     100% {
