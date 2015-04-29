@@ -1,7 +1,9 @@
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; Website <?php echo date('Y') ?></p>
+            <p>&copy; Copyright <?php echo date('Y') ?> | 
+            <a href="#">Website Title</a> | 
+            <a href="#page-top">Back to Top</a></p>
         </div>
     </footer>
     
