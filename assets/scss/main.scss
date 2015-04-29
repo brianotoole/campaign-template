@@ -1,0 +1,22 @@
+/* 
+Stylesheet: main.scss
+Author: Brian
+Description: uses Bootstrap 3, and Sass
+*/
+
+// Colors
+$text: #333;
+$dark-grey: #2d2d2d;
+$green: #35bbad; //light sea-green
+$blue: #2b61a9; //steel blue
+
+// Typography
+$font-body: "Helvetica Neue",Helvetica,Arial,sans-serif;
+$font-heading: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+
+// Vendors
+@import "bootstrap";
+
+// Layout
+@import "layout";
+@import "responsive";
