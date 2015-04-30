@@ -9,6 +9,7 @@
     
     <!--JS-->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="//connect.soundcloud.com/sdk.js"></script>
     <script src="assets/js/vendor/easing.min.js"></script>
     <script src="assets/js/main.js"></script>
  
